@@ -1,0 +1,150 @@
+#map {
+  height: 100%;
+  width: 85%;
+  float: right;
+  position: fixed;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p, a {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.play-header {
+  height: 40px;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.header h1 {
+  padding: 5px 20px;
+  border-bottom: 1px solid #555;
+}
+
+.nav-button {
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  /* color: black; */
+  color: #999;
+}
+
+.header a:hover {
+  color: #ffffff;
+}
+
+#info {
+  visibility: hidden;
+  min-width: 250px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 16px;
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  z-index: 1;
+}
+
+#win-screen {
+  visibility: hidden;
+  cursor: pointer;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background: rgba(11, 11, 11, 0.7);
+  color: #fff;
+  z-index: 1;
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#win-message, #play-again {
+  text-align: center;
+}
+
+.sidebar {
+  /* box-shadow: 3px 0 18px #999; */
+  box-shadow: 0 0px 10px rgba(33, 33, 33, 0.6);
+  border-right: 1px solid #eeeeee;
+  height: 100%;
+  width: 15%;
+  background-color: #ffffff;
+  float: left;
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar h2 {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #eeeeee;
+  margin: 0;
+}
+
+.sidebar p {
+  padding: 20px 30px;
+  display: block;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+}
+
+.main {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+}
+
+.about-game {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.how-to {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.welcome {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.in-text {
+  text-decoration: none;
+  color: #777;
+}
+
+.in-text:hover {
+  color: #333;
+}

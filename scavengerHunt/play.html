@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Scavenger Hunt</title>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+
+    <div id="win-screen" onclick="playAgain()">
+      <div id="text">
+        <h1 id="win-message">You Won!</h1>
+        <p id="play-again">click anywhere to play again</p>
+      </div>
+    </div>
+
+    <div class="play-header">
+      <!-- <h1>Scavenger Hunt</h1> -->
+      <p class="nav-button">
+        <a class="nav-button" href="home.html" title="home">Home</a>|
+        <a class="nav-button" href="play.html" title="play">Play</a>|
+        <a class="nav-button" href="about.html" title="about">About</a>
+      </p>
+    </div>
+
+    <div id="info">You found an item!</div>
+
+    <div id="map"></div>
+
+    <div class="sidebar">
+      <h2>Items:</h2>
+      <p id="one"><strong>One:</strong> Sherlock Holmes's Address</p>
+      <p id="two"><strong>Two:</strong> Birthplace of Democracy</p>
+      <p id="three"><strong>Three:</strong> Location Of The Great Pyramids</p>
+      <p id="four"><strong>Four:</strong> Tallest Building in the World</p>
+      <p id="five"><strong>Five:</strong> Not Constantinople</p>
+      <p id="six"><strong>Six:</strong> Where Napoleon Was Defeated</p>
+      <p id="seven"><strong>Seven:</strong> Tallest Mountain in the World</p>
+      <p id="eight"><strong>Eight:</strong> The Home Of Mona Lisa</p>
+      <p id="nine"><strong>Nine:</strong> What Used to Be The Center Of Kublai Khan's Empire</p>
+      <p id="ten"><strong>Ten:</strong> Island Where Alexander Hamilton Was Born</p>
+    </div>
+
+    <script src="script/mapScript.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=[INSERT_API_KEY_HERE]&callback=initMap"
+    async defer></script>
+  </body>
+</html>
